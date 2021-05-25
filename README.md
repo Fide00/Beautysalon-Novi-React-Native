@@ -32,13 +32,13 @@ In de webapplicatie is een contactpagina gebouwd met de volgende functionaliteit
 ### Benodigdheden en installatie
 Om de mobiele applicatie en zijn code in te zien heb je een IDE (integrated development environment) sotware pakket nodig.
 Dit project is in JetBrains Webstorm ontwikkeld en is hier dus het beste compatible mee. 
-De hoofdfolder genaamd SalonManagerReactNative dient in de ontwikkelprogramma geimporteerd te worden om bij de code te kunnen.
+De hoofdfolder genaamd Beautysalon-Novi-React-Native dient in de ontwikkelprogramma geimporteerd te worden om bij de code te kunnen.
 
 **Benodigdheden**
 * JetBrains Webstorm versie 2020.2 of hoger.
 * Node.js
-* Android Studio om een emulator-simulator te openen of
-* Android telefoon of tablet
+* Android Studio of Xcode om een emulator-simulator te openen of
+* Android of iOS telefoon of tablet
 
 **Installatie/Importeer project in Webstorm**
 1. Open Webstorm.
@@ -60,10 +60,9 @@ De hoofdfolder genaamd SalonManagerReactNative dient in de ontwikkelprogramma ge
          />`
     4.Typ in de geintegreerde Terminal `npm start` en vervolgens `react-native run-android` en druk op enter.
          
-    B. Voor IOS:
-    1. Installeer Brew install watchman.
-    2. Installeer React Native CLI met `npm install -g react-native-cli` in de Terminal.
-    3. Installeer de applicatie Xcode op de computer.
+    B. Voor iOS:
+    1. Installeer React Native CLI met `npm install -g react-native-cli` in de Terminal.
+    2. Installeer de applicatie Xcode op de computer.
         1. Open Xcode.
         2. Open Devices and Simulators.
         3. Druk op het tabblad "Simulators"
@@ -71,7 +70,7 @@ De hoofdfolder genaamd SalonManagerReactNative dient in de ontwikkelprogramma ge
         5. Kies een Simulator Naam, Device Type, en OS versie.
         6. Druk op de blauwe knop “Create”.
         
-    4. Typ in de geintegreerde Terminal `react-native run-ios --simulator=”iPhone 11 Pro Max”`(let op: pas de naam en type van jouw toestel aan tussen de aanhalingstekens)
+    3. Typ in de geintegreerde Terminal `react-native run-ios --simulator=”iPhone 11 Pro Max”`(let op: pas de naam en type van jouw toestel aan tussen de aanhalingstekens)
     
 De mobiele applicatie wordt nu geopend.
 
