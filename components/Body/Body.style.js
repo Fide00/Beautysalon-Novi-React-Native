@@ -19,11 +19,13 @@ export default StyleSheet.create({
     backgroundColor: '#ffe4e1',
     fontSize: 13,
     textAlign: 'center',
+    color: 'grey',
   },
   titleText: {
     fontSize: 15,
     fontWeight: 'bold',
     textAlign: 'center',
+    color: 'dimgrey',
   },
   map: {
     flexGrow: 1,
@@ -33,13 +35,16 @@ export default StyleSheet.create({
     borderWidth: 1,
     margin: 15,
     height: 40,
-    borderColor: 'grey',
+    borderColor: 'dimgrey',
+    color: 'grey',
   },
   inputBericht: {
     margin: 15,
     height: 150,
-    borderColor: 'grey',
+    borderColor: 'dimgrey',
+    color: 'grey',
     borderWidth: 1,
     borderRadius: 6,
+    textAlignVertical: 'top',
   },
 });

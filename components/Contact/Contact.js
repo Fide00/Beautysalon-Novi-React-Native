@@ -10,7 +10,8 @@ function Contact() {
         <Text style={styles.titleText}>Contact formulier{'\n'} </Text>
         <Formik
           initialValues={{naam: '', email: '', bericht: ''}}
-          onSubmit={(values) => {
+          on
+          Submit={(values) => {
             Alert.alert(JSON.stringify(values));
           }}>
           {(props) => (
@@ -40,9 +41,9 @@ function Contact() {
 
               {/*Bevestigknop*/}
               <Button
-                title="submit"
+                title="Verzenden"
                 color="pink"
-                onPress={props.handleSubmit}
+                onPress={props.handleSusubmibmit}
               />
             </View>
           )}
